@@ -1,0 +1,52 @@
+{
+    "agent_name": "Carol",
+    "timezone": "Europe/London",
+    "working_hours": {
+        "start": "09:00",
+        "end": "17:00"
+    },
+    "meetings": [
+        {
+            "day": "Monday",
+            "start": "09:30",
+            "end": "10:30",
+            "title": "Design Review",
+            "reschedulable": false
+        },
+        {
+            "day": "Monday",
+            "start": "11:00",
+            "end": "12:00",
+            "title": "Marketing Sync",
+            "reschedulable": true
+        },
+        {
+            "day": "Monday",
+            "start": "12:30",
+            "end": "13:30",
+            "title": "Content Strategy",
+            "reschedulable": false
+        },
+        {
+            "day": "Monday",
+            "start": "13:15",
+            "end": "14:00",
+            "title": "Sales Review",
+            "reschedulable": false
+        },
+        {
+            "day": "Monday",
+            "start": "14:30",
+            "end": "15:00",
+            "title": "UX Workshop",
+            "reschedulable": true
+        },
+        {
+            "day": "Monday",
+            "start": "15:30",
+            "end": "16:30",
+            "title": "Data Sync",
+            "reschedulable": false
+        }
+    ]
+}

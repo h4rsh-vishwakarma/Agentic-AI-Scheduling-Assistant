@@ -1,0 +1,52 @@
+{
+  "agent_name": "David",
+  "timezone": "Asia/Singapore",
+  "working_hours": {
+    "start": "09:00",
+    "end": "17:00"
+  },
+  "meetings": [
+    {
+      "day": "Monday",
+      "start": "09:30",
+      "end": "10:30",
+      "title": "Planning Call",
+      "reschedulable": false
+    },
+    {
+      "day": "Monday",
+      "start": "11:00",
+      "end": "11:30",
+      "title": "Feature Demo",
+      "reschedulable": true
+    },
+    {
+      "day": "Monday",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Dev Sync",
+      "reschedulable": false
+    },
+    {
+      "day": "Monday",
+      "start": "13:30",
+      "end": "14:30",
+      "title": "Cross-Team Update",
+      "reschedulable": false
+    },
+    {
+      "day": "Monday",
+      "start": "14:15",
+      "end": "15:00",
+      "title": "Budget Planning",
+      "reschedulable": false
+    },
+    {
+      "day": "Monday",
+      "start": "15:30",
+      "end": "16:00",
+      "title": "Internal Review",
+      "reschedulable": true
+    }
+  ]
+}

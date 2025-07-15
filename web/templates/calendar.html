@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ agent.get_name() }}'s Calendar</title>
+</head>
+<body>
+    <h2>{{ agent.get_name() }}'s Meetings ({{ agent.timezone.zone }})</h2>
+    <ul>
+        {% for m in agent.get_data().meetings %}
+        <li>{{ m.day }} {{ m.start }} - {{ m.end }} | {{ m.title }} {% if m.reschedulable %}(reschedulable){% endif %}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Free Slots:</h3>
+    <ul>
+        {% for start, end in agent.get_free_slots() %}
+        <li>{{ start.astimezone(agent.timezone).strftime("%H:%M") }} - {{ end.astimezone(agent.timezone).strftime("%H:%M") }}</li>
+        {% endfor %}
+    </ul>
+
+    <a href="/">🔙 Back to Home</a>
+</body>
+</html>
