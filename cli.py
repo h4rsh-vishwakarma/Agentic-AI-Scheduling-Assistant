@@ -1,5 +1,5 @@
 # cli.py
-import argparse 
+import argparse
 from main_flow import run_scheduling
 
 def main():
