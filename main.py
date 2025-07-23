@@ -3,7 +3,7 @@ from datetime import timedelta, datetime, date
 from agents.calendar_agent import CalendarAgent
 from agents.negotiator import negotiate_meeting
 from agents.suggestion_agent import suggest_meeting_slot
-from agents.llm_agent import get_llm_response  # ✅ LLM 
+from agents.llm_agent import get_llm_response  # ✅ LLM
 from main_utils import find_common_slots, find_partial_slots, format_slot
 
 
