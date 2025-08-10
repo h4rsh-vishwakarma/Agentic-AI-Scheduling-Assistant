@@ -6,7 +6,7 @@ from agents.suggestion_agent import suggest_meeting_slot
 from agents.llm_agent import get_llm_response  # ✅ LLM
 from main_utils import find_common_slots, find_partial_slots, format_slot
 
-   
+    
 # Minimum required duration for a valid common meeting
 MIN_DURATION = timedelta(minutes=30)
 
